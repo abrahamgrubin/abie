@@ -1,0 +1,330 @@
+/*#cascade {
+  background-image: url("../images/boston_harbor.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  color:#fff;
+}*/
+p,li {
+ font-family: 'Slabo 27px', serif;
+}
+#contact {
+  padding-top: 16%;
+  text-align: center; 
+  height:705px; 
+  background-image:url("../images/ocean_arc.jpg");
+  background-size:cover;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  color:#fff;
+  
+}
+
+.dropdown {
+  float:right;
+  margin-right: 120px;
+  margin-top: 20px;
+  border: 2px solid #fff;
+  border-radius: 12px;
+  background: transparent;
+  background-color: transparent; 
+}
+
+.btn {
+  background: transparent;
+  background-color: transparent; 
+  border:none;
+  font-color: #fff;
+  padding:20px 20px 20px 20px;
+  font-size: 1.2em;
+  color:#fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color:#000000;
+}
+
+/*.btn:focus {
+  background-color: #fff;
+  color:transparent;
+}*/
+/*#contact .col-md-6 {
+   
+   position:fixed;
+   z-index:0;
+   overflow:hidden;
+}*/
+#contact img {
+  border-radius:100px;
+   border:5px solid #fdeba3;
+   background:none;
+}
+
+#contact .col-md-12 {
+  margin-top: -40px;
+  float:right;
+}
+/*#contact h1 {
+  background-color: #407785;
+  opacity:0.9;
+  width:100%;
+  
+  margin-left: auto;
+  margin-right: auto;
+}*/
+
+#intro {
+  background-color: #9fcce1;
+  color:#407785;
+  font-size: 1.2em;
+  margin-top: -25px;
+  padding-bottom: 10px;
+}
+
+#intro h1{
+  font-size: 4em;
+}
+
+
+  
+
+#intro .col-md-6:last-child {
+  margin-top: 102px;
+}
+
+#professional {
+  background-color:#fff;
+ 
+  opacity:0.9;
+  margin-bottom: -19px;
+
+}
+
+#skills .col-md-6{
+ background-color:#fff;
+ opacity:0.7;
+}
+#skills {
+  z-index:0;
+  margin-top: -700px;
+
+  /*background-image:url('../images/typing.mp4');
+  background-size: cover;
+  background-width:100%;*/
+}
+video #bgvid {
+position: fixed; 
+right: 0; 
+bottom: 0;
+min-width: 100%; 
+min-height: 100%;
+width: auto; 
+height: auto; 
+z-index: -100;
+background: url('../images/typing.jpg') no-repeat;
+background-size: cover;
+}
+/*#experience h3 {
+  margin-top:-1px;
+  background-color: #E7C2B1;
+  padding-top:2.5%;
+  padding-bottom: 2.5%;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  text-align: center;
+}
+
+#experience .col-md-6{
+  color:#fff;
+  background-color:#9fcce1;
+
+}*/
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote {
+  /*background: #f9f9f9;*/
+  /*border-left: 10px solid #ccc;*/
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  /*quotes: "\201C""\201D""\2018""\2019";*/
+}
+
+
+blockquote img {
+  height:75px;
+  width:75px;
+  border-radius:37.5px;
+}
+#top {
+  background-color: #407785;
+}
+
+/*#square {
+  width: 100px;
+  height: 100px;
+  background: #407785;
+}*/
+
+#experience {
+  background-color:#e5ded8;
+  /*background-color:#9fcce1;*/
+}
+/*#experience .row{
+border-bottom: 1px solid #407785;
+}*/
+#experience .col-md-6:last-child {
+  border-left: 1px solid #9a9a9a;
+
+}
+#experience .col-md-4:nth-child(2) {
+  border-left:1px solid #9a9a9a;
+  
+  border-right:1px solid #9a9a9a;
+}
+#experience .container {
+  background-color:#fff;
+  opacity:.8;
+  border:50px solid #e5ded8;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+  /*color:#407785;*/
+}
+#experience li {
+  font-size: 1.2em;
+}
+
+#experience .row:nth-child(2){
+  /*border-top: 1px solid #407785;*/
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#experience .row:nth-child(3){
+  border-top: 1px solid #407785;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+#experience .row:nth-child(4){
+  border-top:1px solid #9a9a9a;
+  /*padding-bottom: 10px;*/
+}
+
+#experience .row:last-child {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+#skills h1 {
+  font-size: 6em;
+}
+#skills .col-md-6:last-child {
+padding-bottom:26px;
+}
+.fixed {
+  position: fixed; 
+  top: 0; 
+  height: 59px; 
+  background-color:#fff;
+  opacity:0.9;
+  padding-right: 15px;
+  padding-left: 15px;
+  z-index: 1;
+ 
+
+}
+
+.padd {
+  padding-top:69px;
+}
+
+.video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video iframe {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.video .overlay {
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; /* you were also missing a semi-colon here, which was breaking this and the background rule */
+    background: url('../images/polar_bear.png') no-repeat;
+}
+
+#ed {
+  margin-top:189px;
+  padding-bottom:20px;
+  background-color: #9fcce1;
+  color:#407785;
+}
+
+#ed h1{
+  font-size: 3em;
+}
+
+#ed ul {
+  display:none;
+}
+
+#ed img {
+  
+  border-radius:10px;
+  height:150px;
+  width:150px;
+}
+
+#portfolio {
+  padding-top: 190px;
+  padding-bottom: 50px;
+  text-align:center;
+  background-color: #9fcce1;
+  color:#407785;
+}
+
+#portfolio img {
+  height:100%;
+  width:100%;
+  padding-bottom: 10px;
+}
+
+#portfolio img:hover {
+  height:102%;
+  width:102%;
+}
+
+#portfolio h1 {
+  text-align: left;
+  font-size: 4em;
+}
+
+#portfolio .col-md-4 {
+  padding-bottom:20px;
+}
+
+
+
+/*#professional {
+  background-image:url("../images/boston_harbor.jpg");
+  background-size:cover;
+  background-repeat: no-repeat; 
+  color:#efe7b8;
+}*/
