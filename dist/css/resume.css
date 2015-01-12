@@ -29,12 +29,16 @@ p,li {
   background-color: transparent; 
 }
 
+.dropdown1 {
+  display:none;
+}
+
 .btn {
   background: transparent;
   background-color: transparent; 
   border:none;
   font-color: #fff;
-  padding:20px 20px 20px 20px;
+  padding:10px 20px 10px 20px;
   font-size: 1.2em;
   color:#fff;
 }
@@ -88,9 +92,9 @@ p,li {
 
   
 
-#intro .col-md-6:last-child {
+/*#intro .col-md-6:last-child {
   margin-top: 102px;
-}
+}*/
 
 #professional {
   background-color:#fff;
@@ -106,6 +110,7 @@ p,li {
 }
 #skills {
   z-index:0;
+  /*margin-top:74.468085%;*/
   margin-top: -700px;
 
   /*background-image:url('../images/typing.mp4');
@@ -217,9 +222,26 @@ border-bottom: 1px solid #407785;
   /*padding-bottom: 10px;*/
 }
 
+#experience .row:nth-child(5){
+  border-bottom:1px solid #9a9a9a;
+  padding-bottom: 50px;
+  /*padding-bottom: 10px;*/
+}
+
 #experience .row:last-child {
   padding-top: 20px;
   padding-bottom: 50px;
+
+}
+
+#experience .row:last-child ul {
+  display:block;
+  margin-right:auto;
+  margin-left:auto ;
+}
+#experience .row:last-child li{
+
+
 }
 
 #skills h1 {
@@ -245,6 +267,10 @@ padding-bottom:26px;
   padding-top:69px;
 }
 
+video {
+  height:100%;
+  width:100%;
+}
 .video {
     position: absolute;
     left: 0;
@@ -319,6 +345,93 @@ padding-bottom:26px;
 #portfolio .col-md-4 {
   padding-bottom:20px;
 }
+
+#footer {
+  text-align:center;
+  font-size:1.5em;
+  background-color:#86415C;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  border-top:5px solid #fff;
+  color:#fff;
+  
+}
+
+#footer a {
+  color:#fff;
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+
+#experience .col-md-6:last-child {
+  border-left: none;
+  
+}
+#experience .col-md-4:nth-child(2) {
+  border-left:none;
+  
+  border-right:none;
+}
+#experience .container {
+  background-color:#fff;
+  opacity:.8;
+  border:20px solid #e5ded8;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  /*color:#407785;*/
+}
+
+
+#experience .row:nth-child(2){
+  /*border-top: 1px solid #407785;*/
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+#experience .row:nth-child(3){
+  border-top: 1px solid #407785;
+  padding-top:30px;
+  padding-bottom: 30px;
+}
+#experience .row:nth-child(4){
+  border-top:1px solid #9a9a9a;
+  /*padding-bottom: 10px;*/
+}
+
+#experience .row:nth-child(5){
+  border-bottom:1px solid #9a9a9a;
+  padding-bottom: 50px;
+  /*padding-bottom: 10px;*/
+}
+
+#skills {
+  display:none;
+}
+#portfolio {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  text-align:center;
+  background-color: #9fcce1;
+  color:#407785;
+}
+
+.dropdown {
+  display:none;
+
+}
+.dropdown1 {
+  display:block;
+  
+  border: 2px solid #fff;
+  border-radius: 12px;
+  background: transparent;
+  background-color: transparent; 
+}
+
+}
+
 
 
 
