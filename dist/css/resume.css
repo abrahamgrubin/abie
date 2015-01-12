@@ -223,7 +223,7 @@ border-bottom: 1px solid #407785;
 }
 
 #experience .row:nth-child(5){
-  border-bottom:1px solid #9a9a9a;
+ /* border-bottom:1px solid #9a9a9a;*/
   padding-bottom: 50px;
   /*padding-bottom: 10px;*/
 }
@@ -239,9 +239,9 @@ border-bottom: 1px solid #407785;
   margin-right:auto;
   margin-left:auto ;
 }
-#experience .row:last-child li{
 
-
+#hide {
+  display:none;
 }
 
 #skills h1 {
@@ -406,6 +406,7 @@ video {
   /*padding-bottom: 10px;*/
 }
 
+
 #skills {
   display:none;
 }
@@ -428,6 +429,10 @@ video {
   border-radius: 12px;
   background: transparent;
   background-color: transparent; 
+}
+
+#hide {
+  display:block;
 }
 
 }
